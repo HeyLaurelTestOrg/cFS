@@ -1,0 +1,7 @@
+name: "CodeQL Coding Standard Configuration File"
+
+disable-default-queries: true
+
+queries:
+  - name: JSF Rules
+    uses: github/codeql/cpp/ql/src/jsf@main
